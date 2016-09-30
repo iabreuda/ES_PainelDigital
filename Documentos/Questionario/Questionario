@@ -1,0 +1,25 @@
+1 - Quem sera responsavel por inserir as informacoes no sistema? Todos podem inserir ou existira um departamento/pessoas com privilegio de insercao? p.e Gecom, Caeng, Daeq, Secretarias....
+
+2 - Caso qualquer um possa inserir, existe alguma politica de controle ou filtro, do que pode ou nao ser inserido?
+
+3 - Como voces esperao que seja a politica de o que sera exibido, visto que o painel tem um tamanho limitado e os eventos nao, pode se utilizar filtros passados no endereco da pagina web para exibir somente anuncios para aquela localidade? Quais seriam os criteiros adotados para escolha do anuncio, existe algum tipo de peso para cada criterio?
+
+4 - As bolsas e estagios devem ser bidirecionalmente integrada com o sistema do time argentina ou podemos apenas utilizar os dados inseridos por eles como fonte? O nosso sistema deve permitir insercao de bolsas ou nao?
+
+5 - As localidades devem ser dividadas por campis ou por centros, quais seriam os locais de publicacao? existe algum limite de numero de centros escolhidos? pode-se implantar estrutura de arvore p.e UFRJ > Ilha do Fundao > CT - CCMN - CSS
+
+6 - Ao informar um anuncio, quais informacoes sao mandatorias? Se centro e mandatorio, como eu devo tratar um evento em toda a instituicao?
+
+7 - Qual e a taxa de atualizacao do painel, todos os anuncios devem ser trocados apos uma atualizacao?
+
+8 - Deve-se personificar o usuario? Uma vez que o sistema deve colher a reacao do usuario ou sera so quantitativo? caso quantitativo, como prevenir spam de likes?
+
+9 - Uma vez que visitante nao possui nenhum registro na ufrj, como se pretende dar acesso a essa categoria, no caso de personificacao do usuario?
+
+10 - Os eventos podem somente ser dentro dos campis da universidade?
+
+11 - Existe algum periodo maximo para os anuncios ficarem disponiveis?
+
+12 - Quais devem ser os filtos disponiveis para uma selecao especifica dos anuncios?
+
+13 - Os anuncios que ja ocorreram ou que foram desanunciados, devem ser mantidos por razoes historias ou podem ser descartados da base de dados?
