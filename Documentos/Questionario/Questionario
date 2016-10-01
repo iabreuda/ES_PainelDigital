@@ -23,3 +23,17 @@
 12 - Quais devem ser os filtos disponiveis para uma selecao especifica dos anuncios?
 
 13 - Os anuncios que ja ocorreram ou que foram desanunciados, devem ser mantidos por razoes historias ou podem ser descartados da base de dados?
+
+14 - Devemos ter 2 tipos (roles) de usuários (admin e visitante)? Ou devemos ter admin, docentes, alunos, funcionários e visitantes?
+
+15 - Existe a necessidade de ter mais alguma interação do usuário com o anúncio além de curtir, amar e enfurecer? Se sim, quais?
+
+16 - Para visualizar os eventos, cursos e demais atividades é necessário que o usuário se autentique?
+
+17 - Quais os campos necessários para o cadastro de cada tipo de usuário do sistema? Existe algum item não obrigatório?
+
+18 - Quais os dados necessários para a autenticação do usuário? E-mail e senha ou CPF e senha? Existe mais alguma possibilidade?
+
+19 - Nos detalhes sobre os anúncios devemos permitir que o administrador, ao cadastrar o anúncio, escreva qualquer coisa num campo de texto livre? Existe um limite de caracteres?
+
+20 - É mandatório o preenchimento de todos os dados (detalhes, data, local, etc.) no cadastro de um anúncio, certo? Além disso, eles devem ter status quanto à sua "disponibilidade" ("Realizado", "Por vir" e "Ocorrendo", por exemplo)?
