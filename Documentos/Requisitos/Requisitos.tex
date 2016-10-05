@@ -15,11 +15,11 @@
 
 \title{Painel Digital - Engenharia de Software 2016/02}
 \begin{document}
-	
+
 \begin{minipage}[c][3cm][c]{3cm}
-	\includegraphics[height=3cm]{img/ufrj_logo.png} 
+	\includegraphics[height=3cm]{img/ufrj_logo.png}
 \end{minipage}
-\begin{minipage}[c][3cm][c]{10cm} 
+\begin{minipage}[c][3cm][c]{10cm}
 	Universidade Federal do Rio de Janeiro \\
 	EEL873 - Engenharia  de Software \\
 	Projeto de Disciplina: Sistema Web
@@ -28,11 +28,11 @@
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{6cm}p{10cm}}
 		\hline
 		\cellcolor{gray} & \cellcolor{gray}\\
-		\hline		
+		\hline
 		\pbox{20cm}{Nome do Projeto: \\ Painel Digital}
 		&\pbox{20cm}{Data de Solicitação: \\ 15 de Setembro de 2016}\\[2ex]
 		\hline
@@ -49,7 +49,7 @@
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{9cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Data&\cellcolor{gray}Comentário&\cellcolor{gray}Autor&\cellcolor{gray}Versão  \\
@@ -99,7 +99,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{7cm}p{7cm}}
 		\hline
 		\cellcolor{gray}Nome&\cellcolor{gray}Papel  \\
@@ -117,7 +117,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		Carlos Eduardo&Time de Integração Argentina\\
 		Hellen Pereira&Time de Integração Argentina\\
 		Luis Felipe&Time de Integração Argentina\\
-		Rafael Gonçalves&Time de Integração Argentina\\		
+		Rafael Gonçalves&Time de Integração Argentina\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -125,13 +125,15 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{12cm}}
 		\hline
 		\cellcolor{gray}Termo&\cellcolor{gray}Descrição  \\
 		\hline
 		RFXX&Requisitos funcionais, seguido por um índice numérico sequencial\\
-		RNFXX&Requisitos não funcionais, seguido por um índice numérico sequencial\\	
+		RNFXX&Requisitos não funcionais, seguido por um índice numérico sequencial\\
+        An\'{u}ncios&Informa\c{c}\~{o}es exibidas pelo sistema\\
+        Localidades&Centros Acad\^{e}micos\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -140,27 +142,56 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+		RF01&O sistema deve permitir o cadastro de um ou mais administradores&Proposto&M\'{e}dia\\
+        RF02&Os adminsitradores podem cadastar terceiros para inser\c{c}\~{a}o de an\'{u}ncios&Proposto&M\'{e}dia\\
+        RF03&An\'{u}ncios cadastrados por terceiros devem ser confirmados por um adminitrador antes de ser exibido&Proposto&Alta\\
+        RF04&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre as localidades em que devem ser exibidos&Proposto&Alta\\
+    \end{tabular}
+\end{table}%
+\begin{table}[ht]
+    \rowcolors{1}{}{}
+    \centering
+
+    \begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
+        \hline
+
+        RF05&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre o prazo de exibi\c{c}\~{a}o&Proposto&M\'{e}dia\\
+        RF06&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre a data/prazo de acontecimento&Proposto&M\'{e}dia\\
+        RF07&Os administradores devem poder cadastrar novas localidades&Proposto&M\'{e}dia\\
+        RF08&Os administradores devem poder editar localidades&Proposto&M\'{e}dia\\
+        RF09&Os anunciantes devem poder editar somente seus an\'{u}ncios&Proposto&M\'{e}dia\\
+        RF10&Os administradores devem poder editar todos os an\'{u}ncios&Proposto&Alta\\
+        RF11&Os administradores devem poder remover/finalizar todos os an\'{u}ncios&Proposto&Baixa\\
+        RF12&Os anunciantes devem poder remover/finalizar todos os seus an\'{u}ncios&Proposto&Alta\\
+        RF13&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre as localidades em que acontecer\'{a}&Proposto&Alta\\
+        RF14&Os administradores devem poder configurar a taxa de atualiza\c{c}\~{a}o dos an\'{u}ncios no painel digital&Proposto&M\'{e}dia\\
+        RF15&O sistema deve ser capaz de exibir bolsas inseridas no sistema de informe de vagas de bolsas e estágios desenvolvido pelo time Argentina&Proposto&Baixa\\
+        RF16&Os eventos s\'{o} podem ocorrer dentro dos campis da universidade&Proposto&M\'{e}dia\\
+        RF17&Dever\~{a}o existir filtros (Ainda n\~{a}o definidos) para exibi\c{c}\~{a}o de an\'{u}ncios&Proposto&-\\
+        RF18&Dados hist\'{o}ricos devem ser mantidos pelo sistema&Proposto&Alta \\
+        RF20&Os an\'{u}ncios devem registrar feedbacks (curtir, amar e enfurecer) dos usu\'{a}rios&Proposto&Baixa\\
+        RF21&Os administradores podem inserir an\'{u}ncios&Proposto&Alta\\
 		\hline
 	\end{tabular}
-\end{table}%
+\end{table}
 \newpage
 \subsection{Requisitos Não Funcionais}
+\newpage
 \subsubsection{Requisitos de Comunicação de Dados, Interface e Interoperabilidade}
 	\begin{table}[ht]
 		\rowcolors{1}{}{}
 		\centering
-		
+
 		\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 			\hline
 			\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 			\hline
-			-&-&-&-\\
+            RNF01&A leitura de dados com o sistema de bolsas dever\'{a} ser feito atrav\'{e}s de uma View&Proposto&M\'{e}dia\\
 			\hline
 		\end{tabular}
 	\end{table}%
@@ -168,7 +199,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
@@ -181,7 +212,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
@@ -195,12 +226,12 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+		RNF02&O sistema deve estar dispon\'{i}vel durante o hor\'{a}rio de funcionamento da UFRJ&Proposto&Baixa\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -208,25 +239,29 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+		RNF03&O sistema deve utilizar um pard\~{a}o \'{u}nico de escrita de c\'{o}digo&Proposto&Baixa\\
 		\hline
 	\end{tabular}
-\end{table}%	
+\end{table}%
 \subsubsection{Requisitos de Portabilidade}
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+		RNF04&O sistema deve ter compatibilidade as novas ver\~{o}es do Google Chrome&Proposto&Alta\\
+        RNF05&O sistema deve ter compatibilidade as novas ver\~{o}es do Firefox&Proposto&Alta\\
+        RNF06&O sistema deve ter compatibilidade as novas ver\~{o}es do Internet Explore&Proposto&Baixa\\
+        RNF07&O sistema deve ter compatibilidade as novas ver\~{o}es do Microsoft Edge&Proposto&Baixa\\
+        RNF08&O sistema deve ter compatibilidade com diferentes resolu\c{c}\~{o}es de telas&Proposto&Alta\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -235,7 +270,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
@@ -248,7 +283,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
@@ -261,12 +296,12 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+        RNF09&O sistema deve ser web&Proposto&Alta\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -275,7 +310,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
@@ -288,12 +323,12 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 \begin{table}[ht]
 	\rowcolors{1}{}{}
 	\centering
-	
+
 	\begin{tabular}{p{4cm}p{2cm}p{7.5cm}}
 		\hline
 		\cellcolor{gray}Título do Documento&\cellcolor{gray}Versão&\cellcolor{gray}Localização  \\
 		\hline
-		-&-&-\\	
+		-&-&-\\
 		\hline
 	\end{tabular}
 \end{table}
