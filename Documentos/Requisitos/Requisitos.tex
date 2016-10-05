@@ -50,11 +50,12 @@
 	\rowcolors{1}{}{}
 	\centering
 
-	\begin{tabular}{p{2cm}p{9cm}p{2cm}p{2cm}}
+	\begin{tabular}{p{2cm}p{8cm}p{4cm}p{1cm}}
 		\hline
 		\cellcolor{gray}Data&\cellcolor{gray}Comentário&\cellcolor{gray}Autor&\cellcolor{gray}Versão  \\
 		\hline
-		2016/09/28&Levantamento inicial de requisitos &Igor&0.1\\
+		2016/09/28&Levantamento inicial de requisitos &CF, IA e LO&0.1\\
+        2016/10/04&Atualiza\c{c}\~ao dos requisitos ap\'{o}s mentoring&CF, IA, LO e RB&0.2\\
 		\hline
 
 	\end{tabular}
@@ -126,7 +127,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 	\rowcolors{1}{}{}
 	\centering
 
-	\begin{tabular}{p{2cm}p{12cm}}
+	\begin{tabular}{p{3cm}p{12cm}}
 		\hline
 		\cellcolor{gray}Termo&\cellcolor{gray}Descrição  \\
 		\hline
@@ -134,6 +135,10 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		RNFXX&Requisitos não funcionais, seguido por um índice numérico sequencial\\
         An\'{u}ncios&Informa\c{c}\~{o}es exibidas pelo sistema\\
         Localidades&Centros Acad\^{e}micos\\
+        Anunciantes&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios\\
+        Administradores&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes\\
+        Administrador Central&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes e Administradores\\
+        Super Usu\'{a}rios&Administrador Central, Administradores e Anunciantes\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -148,40 +153,37 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
 		RF01&O sistema deve permitir o cadastro de um ou mais administradores&Proposto&M\'{e}dia\\
-        RF02&Os adminsitradores podem cadastar terceiros para inser\c{c}\~{a}o de an\'{u}ncios&Proposto&M\'{e}dia\\
-        RF03&An\'{u}ncios cadastrados por terceiros devem ser confirmados por um adminitrador antes de ser exibido&Proposto&Alta\\
-        RF04&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre as localidades em que devem ser exibidos&Proposto&Alta\\
+        RF02&O sistema deve permitir o cadastro de anunciantes&Proposto&M\'{e}dia\\
+        RF03&O sistema deve permitir a confirma\c{c}\~{a}o de um an\'{u}ncio por um adminitrador antes de ser exibido no painel&Proposto&Alta\\
     \end{tabular}
 \end{table}%
+\newpage
 \begin{table}[ht]
     \rowcolors{1}{}{}
     \centering
-
     \begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
         \hline
 
-        RF05&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre o prazo de exibi\c{c}\~{a}o&Proposto&M\'{e}dia\\
-        RF06&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre a data/prazo de acontecimento&Proposto&M\'{e}dia\\
-        RF07&Os administradores devem poder cadastrar novas localidades&Proposto&M\'{e}dia\\
-        RF08&Os administradores devem poder editar localidades&Proposto&M\'{e}dia\\
-        RF09&Os anunciantes devem poder editar somente seus an\'{u}ncios&Proposto&M\'{e}dia\\
-        RF10&Os administradores devem poder editar todos os an\'{u}ncios&Proposto&Alta\\
-        RF11&Os administradores devem poder remover/finalizar todos os an\'{u}ncios&Proposto&Baixa\\
-        RF12&Os anunciantes devem poder remover/finalizar todos os seus an\'{u}ncios&Proposto&Alta\\
-        RF13&Os an\'{u}ncios devem conter informa\c{c}\~{o}es sobre as localidades em que acontecer\'{a}&Proposto&Alta\\
-        RF14&Os administradores devem poder configurar a taxa de atualiza\c{c}\~{a}o dos an\'{u}ncios no painel digital&Proposto&M\'{e}dia\\
-        RF15&O sistema deve ser capaz de exibir bolsas inseridas no sistema de informe de vagas de bolsas e estágios desenvolvido pelo time Argentina&Proposto&Baixa\\
-        RF16&Os eventos s\'{o} podem ocorrer dentro dos campis da universidade&Proposto&M\'{e}dia\\
-        RF17&Dever\~{a}o existir filtros (Ainda n\~{a}o definidos) para exibi\c{c}\~{a}o de an\'{u}ncios&Proposto&-\\
-        RF18&Dados hist\'{o}ricos devem ser mantidos pelo sistema&Proposto&Alta \\
-        RF20&Os an\'{u}ncios devem registrar feedbacks (curtir, amar e enfurecer) dos usu\'{a}rios&Proposto&Baixa\\
-        RF21&Os administradores podem inserir an\'{u}ncios&Proposto&Alta\\
+        RF04&O sistema deve permitir o cadastro de an\'{u}ncios&Proposto&Alta\\
+        RF05&O sistema deve permitir Super Usu\'{a}rios de inserir an\'{u}ncios&Proposto&Alta\\
+        RF06&O sistema deve permitir a altera\c{c}\~{a}o dos an\'{u}ncios&Proposto&M\'{e}dia\\
+        RF07&O sistema deve permitr aos administradores a edi\c{c}\~{a}o de todos os an\'{u}ncios&Proposto&Alta\\
+        RF08&O sistema deve permitr aos anunciantes a edi\c{c}\~{a}o dos seus an\'{u}ncios&Proposto&Alta\\
+        RF09&O sistema deve permitir ao administrador central cadastrar novas localidades&Proposto&M\'{e}dia\\
+        RF10&O sistema deve permitir ao administrador central editar localidades&Proposto&M\'{e}dia\\
+        RF11&O sistema deve permitir aos administradores remover/cancelar todos os an\'{u}ncios&Proposto&Baixa\\
+        RF12&O sistema deve permitir aos anunciantes remover/cancelar todos os seus an\'{u}ncios&Proposto&Alta\\
+        RF13&O sistema deve permitir ao administrador central configurar a exibi\c{c}\~{a}o dos an\'{u}ncio no painel digital&Proposto&M\'{e}dia\\
+        RF14&O sistema deve ser capaz de exibir bolsas inseridas no sistema de informe de vagas de bolsas e estágios desenvolvido pelo time Argentina&Proposto&Baixa\\
+        RF15&O sistema deve permintir somente eventos dentro dos campis da universidade&Proposto&M\'{e}dia\\
+        RF16&O sistema deve disponibilizar filtros (Ainda n\~{a}o definidos) para exibi\c{c}\~{a}o de an\'{u}ncios&Proposto&Baixa\\
+        RF17&O sistema deve manter dados hist\'{o}ricos&Proposto&Alta\\
+        RF18&O sistema deve permitir o registro de feedbacks para os an\'{u}ncios (curtir, amar e enfurecer)&Proposto&Baixa\\
 		\hline
 	\end{tabular}
 \end{table}
 \newpage
 \subsection{Requisitos Não Funcionais}
-\newpage
 \subsubsection{Requisitos de Comunicação de Dados, Interface e Interoperabilidade}
 	\begin{table}[ht]
 		\rowcolors{1}{}{}
@@ -191,7 +193,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 			\hline
 			\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 			\hline
-            RNF01&A leitura de dados com o sistema de bolsas dever\'{a} ser feito atrav\'{e}s de uma View&Proposto&M\'{e}dia\\
+            RNF01&O sistema deve realizar a leitura de dados do sistema de bolsas atrav\'{e}s de um arquivo disponibilizado pelo time Argentina&Proposto&M\'{e}dia\\
 			\hline
 		\end{tabular}
 	\end{table}%
@@ -204,7 +206,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+        RNF02&O sistema deve informar a hora da ultima atualiza\c{c}\~{a}o de dados do sistema de bolsas&Proposto&M\'{e}dia\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -220,7 +222,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		-&-&-&-\\
 		\hline
 	\end{tabular}
-\end{table}%
+\end{table}
 \newpage
 \subsubsection{Requisitos de Disponibilidade}
 \begin{table}[ht]
@@ -231,10 +233,10 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		RNF02&O sistema deve estar dispon\'{i}vel durante o hor\'{a}rio de funcionamento da UFRJ&Proposto&Baixa\\
+		RNF03&O sistema deve estar dispon\'{i}vel 24x7&Proposto&Baixa\\
 		\hline
 	\end{tabular}
-\end{table}%
+\end{table}
 \subsubsection{Requisitos de Manutenibilidade}
 \begin{table}[ht]
 	\rowcolors{1}{}{}
@@ -244,7 +246,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		RNF03&O sistema deve utilizar um pard\~{a}o \'{u}nico de escrita de c\'{o}digo&Proposto&Baixa\\
+		RNF04&O sistema deve utilizar um pard\~{a}o \'{u}nico de escrita de c\'{o}digo&Proposto&Baixa\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -257,11 +259,9 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		RNF04&O sistema deve ter compatibilidade as novas ver\~{o}es do Google Chrome&Proposto&Alta\\
-        RNF05&O sistema deve ter compatibilidade as novas ver\~{o}es do Firefox&Proposto&Alta\\
-        RNF06&O sistema deve ter compatibilidade as novas ver\~{o}es do Internet Explore&Proposto&Baixa\\
-        RNF07&O sistema deve ter compatibilidade as novas ver\~{o}es do Microsoft Edge&Proposto&Baixa\\
-        RNF08&O sistema deve ter compatibilidade com diferentes resolu\c{c}\~{o}es de telas&Proposto&Alta\\
+		RNF05&O sistema deve ter compatibilidade as novas ver\~{o}es do Google Chrome&Proposto&Alta\\
+        RNF06&O sistema deve ter compatibilidade as novas ver\~{o}es do Firefox&Proposto&Alta\\
+        RNF07&O sistema deve ter compatibilidade com diferentes resolu\c{c}\~{o}es de telas&Proposto&Alta\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -275,7 +275,8 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+		RNF08&O sistema deve armazenar as senhas utilizando criptografia&Proposto&Alta\\
+        RNF09&O sistema deve utilizar captcha na inser\c{c}\~{a}o de an\'{u}ncios para evitar utiliza\c{c}\~{a}o de scripts&Proposto&Alta\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -288,7 +289,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-		-&-&-&-\\
+		RNF10&O sistema deve utilizar os padr\~{o}es de acessibilidade WEB&Proposto&Baixa\\
 		\hline
 	\end{tabular}
 \end{table}%
@@ -301,7 +302,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		\cellcolor{gray}Código&\cellcolor{gray}Descrição&\cellcolor{gray}Status&\cellcolor{gray}Prioridade  \\
 		\hline
-        RNF09&O sistema deve ser web&Proposto&Alta\\
+        RNF11&O sistema deve ser web&Proposto&Alta\\
 		\hline
 	\end{tabular}
 \end{table}%
