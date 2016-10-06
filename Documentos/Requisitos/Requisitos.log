@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.9.13)  4 OCT 2016 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.9.13)  6 OCT 2016 07:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -801,14 +801,19 @@ Overfull \hbox (1.84389pt too wide) in paragraph at lines 58--58
  []
 
 
-Overfull \hbox (19.5472pt too wide) in paragraph at lines 53--62
+Overfull \hbox (1.84389pt too wide) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/12 2016/10/06| 
+ []
+
+
+Overfull \hbox (19.5472pt too wide) in paragraph at lines 53--63
  [][] 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 69.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/igor/Desktop/UFRJ/Cl
@@ -820,145 +825,141 @@ equisitos/Requisitos.toc)
 \openout4 = `Requisitos.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 70.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 70.
- [2]
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 71.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 71.
+ [2]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 72.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 97.
 
-Overfull \hbox (26.126pt too wide) in paragraph at lines 97--98
+Overfull \hbox (26.126pt too wide) in paragraph at lines 98--99
 \OT1/cmr/m/n/12 tema de ge-ren-ci-a-mento e ofer-tas de bol-sas e est^^Sagios d
 a UFRJ. A in-clus~ao/exclus~ao/modifica^^Xc~ao
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
-[3]
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 99.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 99.
+[3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 126.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|\OT1/cmr/m/n/12 Administrador
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 145.
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 146.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 160.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 146.
 [4]
-Underfull \hbox (badness 1092) in paragraph at lines 174--174
-[]|\OT1/cmr/m/n/12 O sis-tema deve per-mi-tir aos ad-mi-
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 148.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\OT1/cmr/m/n/12 O sis-tema deve per-mi-tir a
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 178--178
-[]|\OT1/cmr/m/n/12 O sis-tema deve per-min-tir so-mente
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 181--181
+Underfull \hbox (badness 1303) in paragraph at lines 165--165
 []|\OT1/cmr/m/n/12 O sis-tema deve per-mi-tir o re-gis-tro
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 170.
 [5]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 211.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 211.
  [6]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 227.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 225.
 
-Underfull \hbox (badness 1052) in paragraph at lines 249--249
+Underfull \hbox (badness 1052) in paragraph at lines 234--234
 []|\OT1/cmr/m/n/12 O sis-tema deve uti-li-zar um pard~ao
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 253.
+(babel)             in language  on input line 238.
 
-Underfull \hbox (badness 1127) in paragraph at lines 264--264
+Underfull \hbox (badness 1127) in paragraph at lines 249--249
 []|\OT1/cmr/m/n/12 O sis-tema deve ter com-pa-ti-bi-li-dade
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 268.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 268.
+(babel)             in language  on input line 253.
 [7]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 269.
+(babel)             in language  on input line 254.
 
-Underfull \hbox (badness 1005) in paragraph at lines 279--279
+Underfull \hbox (badness 1005) in paragraph at lines 264--264
 \OT1/cmr/m/n/12 ser^^Xc~ao de an^^Suncios para evi-tar uti-
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 283.
+(babel)             in language  on input line 268.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 281.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 294.
 [8]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 310.
+(babel)             in language  on input line 295.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 323.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 321.
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--344
+Underfull \hbox (badness 10000) in paragraph at lines 322--329
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 331.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 346.
+(babel)             in language  on input line 331.
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
 
 (/home/igor/Desktop/UFRJ/Class/Software Engineers/ES_PainelDigital/Documentos/R
 equisitos/Requisitos.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
 Package rerunfilecheck Info: File `Requisitos.out' has not changed.
 (rerunfilecheck)             Checksum: BE14787D58D531BA317A2119D79B11C5;1580.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
  7767 strings out of 494925
  110055 string characters out of 6180251
- 227280 words of memory out of 5000000
+ 225280 words of memory out of 5000000
  10930 multiletter control sequences out of 15000+600000
  8867 words of font info for 32 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -967,7 +968,7 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 Output written on "/home/igor/Desktop/UFRJ/Class/Software Engineers/ES_PainelDi
-gital/Documentos/Requisitos/Requisitos.pdf" (9 pages, 121543 bytes).
+gital/Documentos/Requisitos/Requisitos.pdf" (9 pages, 121153 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams

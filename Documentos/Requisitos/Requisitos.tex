@@ -56,6 +56,7 @@
 		\hline
 		2016/09/28&Levantamento inicial de requisitos &CF, IA e LO&0.1\\
         2016/10/04&Atualiza\c{c}\~ao dos requisitos ap\'{o}s mentoring&CF, IA, LO e RB&0.2\\
+        2016/10/06&Reorganiza\c{c}\~ao dos requisitos e do gloss\'{a}rio&AS, CF, IA, LO e RB&0.3\\
 		\hline
 
 	\end{tabular}
@@ -133,12 +134,12 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		RFXX&Requisitos funcionais, seguido por um índice numérico sequencial\\
 		RNFXX&Requisitos não funcionais, seguido por um índice numérico sequencial\\
-        An\'{u}ncios&Informa\c{c}\~{o}es exibidas pelo sistema\\
-        Localidades&Centros Acad\^{e}micos\\
+        An\'{u}ncios&Eventos que devem ser aprovadas por um administrador antes de serem exibidos pelo sistema\\
+        Eventos&Cursos, vagas de est\'{a}gios, atividades da universidade e outros acontecimentos que possuem como atributos: Nome, descri\c{c}\~{a}o, detalhes, localidade e datas\\
+        Localidades&Centros Acad\^{e}micos e campi\\
         Anunciantes&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios\\
-        Administradores&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes\\
+        Administradores&Usu\'{a}rios, inseridos pelo administrador central, com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes\\
         Administrador Central&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes e Administradores\\
-        Super Usu\'{a}rios&Administrador Central, Administradores e Anunciantes\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -166,6 +167,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 	\end{tabular}
 \end{table}
+\newpage
 \subsection{Requisitos Não Funcionais}
 \subsubsection{Requisitos de Comunicação de Dados, Interface e Interoperabilidade}
 	\begin{table}[ht]
@@ -206,6 +208,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 	\end{tabular}
 \end{table}
+\newpage
 \subsubsection{Requisitos de Disponibilidade}
 \begin{table}[ht]
 	\rowcolors{1}{}{}
@@ -247,6 +250,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 	\end{tabular}
 \end{table}%
+\newpage
 \subsubsection{Requisitos de Segurança}
 \begin{table}[ht]
 	\rowcolors{1}{}{}
@@ -287,6 +291,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 	\end{tabular}
 \end{table}%
+\newpage
 \subsubsection{Restrições Legais}
 \begin{table}[ht]
 	\rowcolors{1}{}{}
@@ -300,7 +305,6 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 	\end{tabular}
 \end{table}
-\newpage
 \section{Referências}
 \begin{table}[ht]
 	\rowcolors{1}{}{}
