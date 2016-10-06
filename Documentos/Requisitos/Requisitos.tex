@@ -56,6 +56,7 @@
 		\hline
 		2016/09/28&Levantamento inicial de requisitos &CF, IA e LO&0.1\\
         2016/10/04&Atualiza\c{c}\~ao dos requisitos ap\'{o}s mentoring&CF, IA, LO e RB&0.2\\
+        2016/10/06&Reorganiza\c{c}\~ao dos requisitos e do gloss\'{a}rio&AS, CF, IA, LO e RB&0.3\\
 		\hline
 
 	\end{tabular}
@@ -133,15 +134,16 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		RFXX&Requisitos funcionais, seguido por um índice numérico sequencial\\
 		RNFXX&Requisitos não funcionais, seguido por um índice numérico sequencial\\
-        An\'{u}ncios&Informa\c{c}\~{o}es exibidas pelo sistema\\
-        Localidades&Centros Acad\^{e}micos\\
+        An\'{u}ncios&Eventos que devem ser aprovadas por um administrador antes de serem exibidos pelo sistema\\
+        Eventos&Cursos, vagas de est\'{a}gios, atividades da universidade e outros acontecimentos que possuem como atributos: Nome, descri\c{c}\~{a}o, detalhes, localidade e datas\\
+        Localidades&Centros Acad\^{e}micos e campi\\
         Anunciantes&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios\\
-        Administradores&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes\\
+        Administradores&Usu\'{a}rios, inseridos pelo administrador central, com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes\\
         Administrador Central&Usu\'{a}rios com privil\'{e}gios para inser\c{c}\~{a}o de an\'{u}ncios e cadastro de Anunciantes e Administradores\\
-        Super Usu\'{a}rios&Administrador Central, Administradores e Anunciantes\\
 		\hline
 	\end{tabular}
 \end{table}
+\newpage
 \section{Requisitos do Sistema}
 \subsection{Requisitos Funcionais}
 \begin{table}[ht]
@@ -154,31 +156,14 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		\hline
 		RF01&O sistema deve permitir o cadastro de um ou mais administradores&Proposto&M\'{e}dia\\
         RF02&O sistema deve permitir o cadastro de anunciantes&Proposto&M\'{e}dia\\
-        RF03&O sistema deve permitir a confirma\c{c}\~{a}o de um an\'{u}ncio por um adminitrador antes de ser exibido no painel&Proposto&Alta\\
-    \end{tabular}
-\end{table}%
-\newpage
-\begin{table}[ht]
-    \rowcolors{1}{}{}
-    \centering
-    \begin{tabular}{p{2cm}p{7cm}p{2cm}p{2cm}}
-        \hline
-
-        RF04&O sistema deve permitir o cadastro de an\'{u}ncios&Proposto&Alta\\
-        RF05&O sistema deve permitir Super Usu\'{a}rios de inserir an\'{u}ncios&Proposto&Alta\\
-        RF06&O sistema deve permitir a altera\c{c}\~{a}o dos an\'{u}ncios&Proposto&M\'{e}dia\\
-        RF07&O sistema deve permitr aos administradores a edi\c{c}\~{a}o de todos os an\'{u}ncios&Proposto&Alta\\
-        RF08&O sistema deve permitr aos anunciantes a edi\c{c}\~{a}o dos seus an\'{u}ncios&Proposto&Alta\\
-        RF09&O sistema deve permitir ao administrador central cadastrar novas localidades&Proposto&M\'{e}dia\\
-        RF10&O sistema deve permitir ao administrador central editar localidades&Proposto&M\'{e}dia\\
-        RF11&O sistema deve permitir aos administradores remover/cancelar todos os an\'{u}ncios&Proposto&Baixa\\
-        RF12&O sistema deve permitir aos anunciantes remover/cancelar todos os seus an\'{u}ncios&Proposto&Alta\\
-        RF13&O sistema deve permitir ao administrador central configurar a exibi\c{c}\~{a}o dos an\'{u}ncio no painel digital&Proposto&M\'{e}dia\\
-        RF14&O sistema deve ser capaz de exibir bolsas inseridas no sistema de informe de vagas de bolsas e estágios desenvolvido pelo time Argentina&Proposto&Baixa\\
-        RF15&O sistema deve permintir somente eventos dentro dos campis da universidade&Proposto&M\'{e}dia\\
-        RF16&O sistema deve disponibilizar filtros (Ainda n\~{a}o definidos) para exibi\c{c}\~{a}o de an\'{u}ncios&Proposto&Baixa\\
-        RF17&O sistema deve manter dados hist\'{o}ricos&Proposto&Alta\\
-        RF18&O sistema deve permitir o registro de feedbacks para os an\'{u}ncios (curtir, amar e enfurecer)&Proposto&Baixa\\
+        RF03&O sistema deve permitir o cadastro de an\'{u}ncios&Proposto&Alta\\
+        RF04&O sistema deve permitir a altera\c{c}\~{a}o dos an\'{u}ncios&Proposto&M\'{e}dia\\
+        RF05&O sistema deve permitir a remo\c{c}\~{a}o/cancelamento de an\'{u}ncios&Proposto&Alta\\
+        RF06&O sistema deve permitir a exibi\c{c}\~{a}o de an\'{u}ncios&Proposto&Alta\\
+        RF07&O sistema deve permitir a configura\c{c}\~{a}o de exibi\c{c}\~{a}o dos an\'{u}ncios&Proposto&M\'{e}dia\\
+        RF08&O sistema deve permitir a exibi\c{c}\~{a}o de bolsas e vagas de est\'{a}gio dispon\'{i}veis no sistema integrado desenvolvido pelo time Argentina&Proposto&Alta\\
+        RF09&O sistema deve permitir o registro de feedbacks para os an\'{u}ncios (curtir, amar e enfurecer)&Proposto&Baixa\\
+        RF10&O sistema deve manter o hist\'{o}rico de an\'{u}ncios&Proposto&Alta\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -319,7 +304,7 @@ Toda a gerencia dos dados referentes as bolsas serão importados diretamente do 
 		-&-&-&-\\
 		\hline
 	\end{tabular}
-\end{table}%
+\end{table}
 \section{Referências}
 \begin{table}[ht]
 	\rowcolors{1}{}{}
